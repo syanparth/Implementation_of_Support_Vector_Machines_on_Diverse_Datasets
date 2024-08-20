@@ -19,7 +19,7 @@
 ## Cancer Cell Classification
 
 ### Dataset Overview
-This project uses a dataset of cell samples to classify whether the cells are benign (non-cancerous) or malignant (cancerous). The dataset consists of 10 attributes:
+This project uses a dataset of cell samples to classify whether the cells are benign (non-cancerous) or malignant (cancerous). The dataset consists of 10 attributes like:
 
 - Identifier (ID)
 - Clump Thickness
