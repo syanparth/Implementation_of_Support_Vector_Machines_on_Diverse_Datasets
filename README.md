@@ -19,25 +19,26 @@
 ## Cancer Cell Classification
 
 ### Dataset Overview
-This project uses a dataset of cell samples to classify whether the cells are benign (non-cancerous) or malignant (cancerous). The dataset consists of 10 attributes like:
-
-- Identifier (ID)
-- Clump Thickness
-- Uniformity of Cell Size
-- Uniformity of Cell Shape
-- Marginal Adhesion
-- Single Epithelial Cell Size
-- Bare Nuclei
-- Bland Chromatin
-- Normal Nucleoli
-- Mitoses
-- Class (Benign/Malignant)
+This project involves classifying cell samples as either benign (non-cancerous) or malignant (cancerous). The dataset includes the following attributes:
+- **Identifier (ID)**
+- **Clump Thickness**
+- **Uniformity of Cell Size**
+- **Uniformity of Cell Shape**
+- **Marginal Adhesion**
+- **Single Epithelial Cell Size**
+- **Bare Nuclei**
+- **Bland Chromatin**
+- **Normal Nucleoli**
+- **Mitoses**
+- **Class (Benign/Malignant)**
 
 ### Loading the Data
 ```python
 import pandas as pd
 
+# Load the dataset
 df = pd.read_csv('/content/cell_samples(10).csv')
-df.head()
 
+# Display the first few rows of the dataset
+df.head()
 
