@@ -15,8 +15,11 @@
    - [Evaluation](#evaluation-1)
 
 ---
-## For the Iris dataset using `scikit-learn`:
-Ensure the Iris dataset is in the `data/` directory.
+## Iris Flower Classification
+
+### Dataset Overview
+For the Iris dataset make use of  `scikit-learn` library.
+
 ---
 ## Cancer Cell Classification
 
