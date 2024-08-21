@@ -15,7 +15,9 @@
    - [Evaluation](#evaluation-1)
 
 ---
-
+## For the Iris dataset using `scikit-learn`:
+Ensure the Iris dataset is in the `data/` directory.
+---
 ## Cancer Cell Classification
 
 ### Dataset Overview
@@ -31,6 +33,7 @@ This project involves classifying cell samples as either benign (non-cancerous) 
 - **Normal Nucleoli**
 - **Mitoses**
 - **Class (Benign/Malignant)**
+
 
 ### Loading the Data
 ```python
